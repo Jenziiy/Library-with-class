@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Library</title>
+  <script src="index.js" defer></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="grid">
+    <header>
+      <div class="header-left">
+        <h1> LIBRARY SSSH.....</h1>
+        <p>Welcome to our library. View our assortment, add a book of your choosing to the collection and throw out whatever you don't like!
+          Enjoy.
+        </p>
+      </div>
+      <div class="header-right">
+        <ul>
+          <li class="item-1"><a href="/index.html">Overview</a></li>
+          <li class="item-2">News<a href=""></a></li>
+          <li class="item-3">History<a href=""></a></li>
+          <li class="item-4">Contact<a href=""></a></li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <div class="wrapper">
+        <div id="bookstore">
+        </div>
+      </div>
+    </main>
+  <aside>
+    <button id='add-book'> <span>NEW BOOK</span></button>
+  </aside>
+  <footer>
+    This is a super cool footer in which I'll say Hi! happy 2022 ©  &nbsp; &nbsp;&nbsp; &nbsp;    -  &nbsp;   by JZ Creations *+.~
+  </footer>
+  </div>
+  <form id="add-book">
+    <h2>Add a book form</h2>
+    <p>Fill out the details below to add a new book.</p>
+    <fieldset >
+      <legend>Book info</legend>
+      <span class="child">
+        <label for="author">Author:</label>
+        <input class="txt" type="text" id="author" name="author" value="Roald Dahl">
+      </span>
+      <span class="child">
+        <label for="title">Title:</label>
+        <input class="txt" type="text" id="title" name="Title" value="Matilda">
+      </span>
+      <span class="child">
+        <label for="pages">Number of pages:</label>
+        <input class="txt" type="number" id="pagesnumber" name="pagesnumber" value="150" >
+      </span>
+      <span class="child">
+        <label for="hasread">Has been read:</label>
+        <input type="checkbox" id="hasread" name="hasread">
+      </span>
+    </fieldset>
+    <span class="submitbutton"><input id="submit-button" type="button" value="Submit"></span>
+  </form>
+</body>
+</html>
